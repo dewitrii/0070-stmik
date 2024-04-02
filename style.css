@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: rgb(143, 164, 202);
+    text-decoration: none;
+}
+.medsos{
+    padding: 8px 0;
+    background-color: rgb(86, 119, 179);
+}
+.medsos ul li{
+    display: inline-block;
+    color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    text-align: center;
+}
+header ul{
+   float: right; 
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color:  rgb(86, 119, 179);
+    color: black;
+}
+section{
+    position: 50px;
+}
